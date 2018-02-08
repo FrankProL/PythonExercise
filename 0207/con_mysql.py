@@ -1,5 +1,5 @@
 # encoding:utf-8
-import   MySQLdb
+import MySQLdb
 import json
 
 into_db=("172.23.15.19","loujianfeng","o8Jy4QqqHk4WytL","utf8")  
