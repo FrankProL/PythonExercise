@@ -4,6 +4,9 @@
 
 nihao 
 
-nihao 
 
 hello
+
+你好啊
+试一试换行符自动转换功能、
+
