@@ -32,7 +32,7 @@ class community_info(object):
         for x in d:  # 遍历当前城市所有划分出来的小矩形
 
             html = urllib2.urlopen(
-                r'http://api.map.baidu.com/place/v2/search?query=小区&bounds={},{},{},{}4&page_size=20&output=json&ak=xy7QPLqCPID7jwATCKYhHGMH'.format(
+                r'http://api.map.baidu.com/place/v2/search?query=小区&bounds={},{},{},{}4&page_size=20&output=json&ak=c9nNGFV74RjSG70xIXdVLVxWPizCqXdw&callba'.format(
                     x[0], x[1], x[0] + 0.01, x[1] + 0.01))
             b = html.read()  # str
             print b
@@ -67,6 +67,11 @@ class community_info(object):
                     dict_data['district'] = '其他'
                 dict_data_list.append(dict_data)
                 # print json.dumps(dict_data, ensure_ascii=False, encoding='UTF-8', indent=4)
+                i=i+1
+                print i
+            # if i>=100:
+            #     break
+
 
 
         cnxn = MySQLdb.connect(host=self.into_db[0], user=self.into_db[1], passwd=self.into_db[2],
