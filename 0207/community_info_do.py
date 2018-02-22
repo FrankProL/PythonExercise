@@ -6,6 +6,8 @@
 数据库：house.community_info
 字段：'name', 'address', 'city', 'district', 'scope', 'crawler_time', 'location'
 
+http://blog.csdn.net/buracag_mc/article/details/72628147
+http://blog.csdn.net/qq_22073849/article/details/54429979
 """
 
 try:from crawler_module import community_info
