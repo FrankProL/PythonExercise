@@ -1,4 +1,4 @@
-
+#-*-coding:utf-8-*-
 """
 # Python 2.7
 # Filename: apriori.py
@@ -6,9 +6,9 @@
 # Email: hangliu56[AT]gmail[DOT]com
 # Blog: http://www.cnblogs.com/llhthinker/p/6719779.html
 # Date: 2017-04-16
-参考：
-《数据挖掘：概念与技术》（第三版）
-《机器学习实战》
+# 参考：
+#《数据挖掘：概念与技术》（第三版）
+#《机器学习实战》
 """
 
 
